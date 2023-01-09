@@ -1,0 +1,90 @@
+.koleso__inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+.koleso__items {
+    display: flex;
+    flex-direction: column;
+}
+.koleso__item {
+    width: 250px;
+    height: 80px;
+    border: 1px solid green;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.koleso__item.active {
+    background-color: greenyellow;
+}
+button {
+    margin-top: 20px;
+    height: 51px;
+    cursor: pointer;
+}
+.gorod,
+.gruz {
+    margin-top: 50px;
+}
+.gorod__item {
+    width: 350px;
+    height: 150px;
+    border: 2px solid green;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gruz__item {
+    width: 350px;
+    height: 150px;
+    border: 2px solid green;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.magazin {
+    margin-top: 100px;
+}
+.magazin__inner {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+.magazin__item {
+    width: 250px;
+    height: 80px;
+    border: 1px solid green;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:600px) {
+    .koleso__item {
+        width: 70px;
+        height: 100px;
+        font-size: 12px;
+        padding: 5px;
+    }
+    .gorod__item {
+        width: 300px;
+        height: 120px;
+        border: 1px solid green;
+    }
+    .gruz__item {
+        width: 300px;
+        height: 120px;
+        border: 1px solid green;
+    }
+    .magazin__item {
+        width: 70px;
+        height: 100px;
+        font-size: 12px;
+        padding: 5px;
+    }
+}
